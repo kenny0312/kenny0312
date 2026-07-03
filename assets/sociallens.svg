@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 320" role="img" aria-label="SocialLens — short-form video in, decisions out">
+  <defs>
+    <linearGradient id="acc" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#a5b4fc"/>
+      <stop offset="1" stop-color="#67e8f9"/>
+    </linearGradient>
+    <linearGradient id="area" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#a5b4fc" stop-opacity=".35"/>
+      <stop offset="1" stop-color="#a5b4fc" stop-opacity="0"/>
+    </linearGradient>
+    <radialGradient id="glow" cx=".5" cy="0" r="1">
+      <stop offset="0" stop-color="#6366f1" stop-opacity=".28"/>
+      <stop offset=".65" stop-color="#6366f1" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="dots" width="26" height="26" patternUnits="userSpaceOnUse">
+      <circle cx="1.5" cy="1.5" r="1.2" fill="#ffffff" opacity=".05"/>
+    </pattern>
+    <clipPath id="frame"><rect width="1200" height="320" rx="18"/></clipPath>
+  </defs>
+
+  <g clip-path="url(#frame)">
+    <rect width="1200" height="320" fill="#0a0e19"/>
+    <rect width="1200" height="320" fill="url(#dots)"/>
+    <ellipse cx="600" cy="-40" rx="700" ry="260" fill="url(#glow)"/>
+
+    <!-- wordmark -->
+    <g transform="translate(72,0)">
+      <circle cx="18" cy="102" r="17" fill="none" stroke="url(#acc)" stroke-width="2.5"/>
+      <path d="M8.5 106 L15 98 L20 103 L28 92" fill="none" stroke="url(#acc)" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+      <text x="48" y="113" font-family="system-ui,-apple-system,'Segoe UI',Roboto,sans-serif" font-size="34" font-weight="700" fill="#e8ecf4">SocialLens</text>
+      <rect x="248" y="88" width="98" height="26" rx="13" fill="none" stroke="#eab308" stroke-opacity=".55"/>
+      <text x="297" y="105" text-anchor="middle" font-family="ui-monospace,'Cascadia Code',Consolas,monospace" font-size="11" font-weight="600" letter-spacing="1.5" fill="#eab308">DEMO DATA</text>
+
+      <text x="0" y="188" font-family="system-ui,-apple-system,'Segoe UI',Roboto,sans-serif" font-size="46" font-weight="800" fill="#e8ecf4">Thousands of short videos in.</text>
+      <text x="0" y="242" font-family="system-ui,-apple-system,'Segoe UI',Roboto,sans-serif" font-size="46" font-weight="800" fill="url(#acc)">Decisions out.</text>
+    </g>
+
+    <!-- decorative mini-dashboard, echoes the real UI -->
+    <g transform="translate(788,52)" font-family="ui-monospace,'Cascadia Code',Consolas,monospace">
+      <rect x="0" y="0" width="340" height="216" rx="14" fill="#ffffff" fill-opacity=".04" stroke="#ffffff" stroke-opacity=".09"/>
+
+      <text x="22" y="34" font-size="10" letter-spacing="1.8" fill="#8a94a8">SENTIMENT DRIVERS</text>
+      <rect x="22" y="48" width="200" height="7" rx="3.5" fill="#34d399"/>
+      <rect x="22" y="48" width="296" height="7" rx="3.5" fill="#34d399" opacity=".18"/>
+      <rect x="22" y="66" width="150" height="7" rx="3.5" fill="#4ade80" opacity=".85"/>
+      <rect x="22" y="66" width="296" height="7" rx="3.5" fill="#4ade80" opacity=".14"/>
+      <rect x="22" y="84" width="176" height="7" rx="3.5" fill="#fb7185"/>
+      <rect x="22" y="84" width="296" height="7" rx="3.5" fill="#fb7185" opacity=".16"/>
+
+      <text x="22" y="122" font-size="10" letter-spacing="1.8" fill="#8a94a8">MOMENTUM</text>
+      <path d="M22 188 L64 178 L106 182 L148 166 L190 158 L232 162 L274 146 L318 138 L318 196 L22 196 Z" fill="url(#area)"/>
+      <path d="M22 188 L64 178 L106 182 L148 166 L190 158 L232 162 L274 146 L318 138" fill="none" stroke="#a5b4fc" stroke-width="2.5" stroke-linecap="round"/>
+      <path d="M22 184 L64 180 L106 184 L148 174 L190 170 L232 174 L274 162 L318 158" fill="none" stroke="#67e8f9" stroke-width="2" stroke-linecap="round" opacity=".9"/>
+      <circle cx="318" cy="138" r="4" fill="#a5b4fc"/>
+      <circle cx="318" cy="158" r="3.2" fill="#67e8f9"/>
+    </g>
+  </g>
+
+  <rect x=".5" y=".5" width="1199" height="319" rx="18" fill="none" stroke="url(#acc)" stroke-opacity=".35"/>
+</svg>
