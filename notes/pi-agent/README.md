@@ -2,6 +2,8 @@
 
 > 源码：[badlogic/pi-mono](https://github.com/badlogic/pi-mono)（npm 包名 `@earendil-works/pi-*`）
 > 阅读版本：`main` @ `05c7a37`（2026-11-06），`pi-agent-core` v1.5.0
+> 下一篇：[01 · 顶层架构：分层、文件夹与命名](./01-architecture.md)
+>
 > 配套代码：[`mini-agent-loop.ts`](./mini-agent-loop.ts) —— 按同样结构手写的 150 行迷你版，无需 API key 可直接运行：
 >
 > ```bash
